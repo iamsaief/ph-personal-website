@@ -305,6 +305,20 @@ footer span {
 }
 
 /* -------- Responsive CSS ------------*/
+@media screen and (max-width: 1500px) {
+	.clients-feedback,
+	.contact-me {
+		margin-top: 5rem;
+	}
+	.clients-feedback {
+		padding: 0;
+	}
+
+	.contact-me {
+		--margin: 0;
+		padding: 60px;
+	}
+}
 @media screen and (max-width: 1199px) {
 	body {
 		font-size: 1.6rem;
@@ -328,19 +342,6 @@ footer span {
 	}
 	h4 {
 		font-size: 3rem;
-	}
-
-	.clients-feedback,
-	.contact-me {
-		margin-top: 5rem;
-	}
-	.clients-feedback {
-		padding: 0;
-	}
-
-	.contact-me {
-		--margin: 0;
-		padding: 60px;
 	}
 }
 @media screen and (max-width: 991px) {
